@@ -8,10 +8,7 @@ const IndexPage = () => {
     <Layout pageTitle="トップ">
       <title>トップページ</title>
       <div className="grid place-items-center">
-        {/* <Link className="btn btn-wide" to="/playground">PlayGround</Link>
-        <Link className="btn btn-wide" to="/search_result">検索結果</Link> */}
-
-        <Card title={'カテゴリー'}>
+        <Card title={'旅をはじめよう'}>
           <div className="search-answer">
             <Link className="btn btn-wide" to="/search/1">カテゴリから探す</Link>
           </div>
